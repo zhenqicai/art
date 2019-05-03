@@ -29,7 +29,7 @@
                 <a href="news.html"><i class="fa fa-comment-o fa-fw"></i>&nbsp;动态</a>
             </li>
 			 <li class="layui-nav-item">
-                <a href="case.html"><i class="fa fa-comment-o fa-fw"></i>&nbsp;案例</a>
+                <a href="case.html"><i class="fa fa-comment-case fa-fw"></i>&nbsp;案例</a>
             </li>
 
             <li class="layui-nav-item">
@@ -73,50 +73,26 @@
     <div class="layui-container">
       <div class="layui-row">
         <div class="layui-inline content">
-          <div class="layui-inline case-img"><img src="./res/static/img/case1.jpg"></div>
-          <p class="lable">名牌工厂店</p>
-          <p>一家工厂企业的商品展示网站，主要以卖高端服饰为主。主要以卖高端服饰为主。主要以卖高端服饰为主。</p>
+          <div class="layui-inline case-img"><img src="./res/static/img/home_img.jpg"></div>
+          <p class="lable">一个老者</p>
+          <p>这是一个什么样的老人呢？其实在北漂探寻者的眼里究竟是什么样的呢？他是如何打造出怎么一个老者出来呢？</p>
         </div>
         <div class="layui-inline content even center">
-          <div class="layui-inline case-img"><img src="./res/static/img/case2.jpg"></div>
-          <p class="lable">名牌工厂店</p>
-          <p>一家工厂企业的商品展示网站，主要以卖高端服饰为主。主要以卖高端服饰为主。主要以卖高端服饰为主。</p>
+          <div class="layui-inline case-img"><img src="./res/static/img/home_img2.jpg"></div>
+          <p class="lable">一个老者</p>
+          <p>这是一个什么样的老人呢？其实在北漂探寻者的眼里究竟是什么样的呢？他是如何打造出怎么一个老者出来呢？</p>
         </div>
         <div class="layui-inline content">
-          <div class="layui-inline case-img"><img src="./res/static/img/case3.jpg"></div>
-          <p class="lable">名牌工厂店</p>
-          <p>一家工厂企业的商品展示网站，主要以卖高端服饰为主。主要以卖高端服饰为主。主要以卖高端服饰为主。</p>
+          <div class="layui-inline case-img"><img src="./res/static/img/home_img3.jpg"></div>
+          <p class="lable">一个老者</p>
+          <p>这是一个什么样的老人呢？其实在北漂探寻者的眼里究竟是什么样的呢？他是如何打造出怎么一个老者出来呢？</p>
         </div>
         <div class="layui-inline content even">
-          <div class="layui-inline case-img"><img src="./res/static/img/case4.jpg"></div>
-          <p class="lable">名牌工厂店</p>
-          <p>一家工厂企业的商品展示网站，主要以卖高端服饰为主。主要以卖高端服饰为主。主要以卖高端服饰为主。</p>
+          <div class="layui-inline case-img"><img src="./res/static/img/home_img4.jpg"></div>
+          <p class="lable">一个老者</p>
+          <p>这是一个什么样的老人呢？其实在北漂探寻者的眼里究竟是什么样的呢？他是如何打造出怎么一个老者出来呢？</p>
         </div>
-        <div class="layui-inline content center">
-          <div class="layui-inline case-img"><img src="./res/static/img/case5.jpg"></div>
-          <p class="lable">名牌工厂店</p>
-          <p>一家工厂企业的商品展示网站，主要以卖高端服饰为主。主要以卖高端服饰为主。主要以卖高端服饰为主。</p>
-        </div>
-        <div class="layui-inline content even">
-          <div class="layui-inline case-img"><img src="./res/static/img/case6.jpg"></div>
-          <p class="lable">名牌工厂店</p>
-          <p>一家工厂企业的商品展示网站，主要以卖高端服饰为主。主要以卖高端服饰为主。主要以卖高端服饰为主。</p>
-        </div>
-        <div class="layui-inline content">
-          <div class="layui-inline case-img"><img src="./res/static/img/case7.jpg"></div>
-          <p class="lable">名牌工厂店</p>
-          <p>一家工厂企业的商品展示网站，主要以卖高端服饰为主。主要以卖高端服饰为主。主要以卖高端服饰为主。</p>
-        </div>
-        <div class="layui-inline content even center">
-          <div class="layui-inline case-img"><img src="./res/static/img/case8.jpg"></div>
-          <p class="lable">名牌工厂店</p>
-          <p>一家工厂企业的商品展示网站，主要以卖高端服饰为主。主要以卖高端服饰为主。主要以卖高端服饰为主。</p>
-        </div>
-        <div class="layui-inline content">
-          <div class="layui-inline case-img"><img src="./res/static/img/case9.jpg"></div>
-          <p class="lable">名牌工厂店</p>
-          <p>一家工厂企业的商品展示网站，主要以卖高端服饰为主。主要以卖高端服饰为主。主要以卖高端服饰为主。</p>
-        </div>
+        
       </div>
       <div id="casePage"></div>
     </div>
@@ -145,6 +121,9 @@
   layui.config({
     base: './res/static/js/' 
   }).use('firm'); 
+  $(function(){
+     $(".fa-comment-case").parent().parent().addClass("layui-this");
+	 })
 </script>
 </body>
 </html>

@@ -52,7 +52,7 @@
                 <a href="news.html"><i class="fa fa-comment-o fa-fw"></i>&nbsp;动态</a>
             </li>
 			 <li class="layui-nav-item">
-                <a href="case.html"><i class="fa fa-comment-o fa-fw"></i>&nbsp;案例</a>
+                <a href="case.html"><i class="fa fa-comment-case fa-fw"></i>&nbsp;案例</a>
             </li>
 
             <li class="layui-nav-item">
@@ -85,28 +85,21 @@
     </div>-->
 </nav>
   
-  <!-- banner部分 -->
-  <div>
-    <div class="layui-carousel" id="banner">
+  <!-- banner部分
+  <div class="layui-col-md8">
+    <div class="layui-carousel" id="banner" >
       <div carousel-item>
         <div>
-          <img src="./res/static/img/banner1.jpg">
-          <div class="panel">
-            <p class="title">网络公司</p>
-            <p>完美前端体验</p>
-          </div>
+          <img src="./res/static/img/banner.jpg">
+          
         </div>
         <div>
           <img src="./res/static/img/banner2.jpg">
-          <div class="panel">
-            <p class="title">网络公司</p>
-            <p>完美前端体验</p>
-          </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- main部分 -->
+  </div> -->
+  <!-- main部分 
   <div class="main-product">
     <div class="layui-container">
       <p class="title">专为前端而研制的<span>核心产品</span></p>
@@ -153,14 +146,14 @@
         </div>
       </div>
     </div>
-  </div>
+  </div>-->
   <div class="main-service">
     <div class="layui-container">
-      <p class="title">为客户打造完美的<span>专业服务</span></p>
+      <p class="title">一个北漂地艺术探寻者打造出的<span>艺术品</span></p>
       <div class="layui-row layui-col-space25 layui-col-space80">
         <div class="layui-col-sm6">
           <div class="content">
-            <div class="content-left"><img src="./res/static/img/home_img1.jpg"></div>
+            <div class="content-left"><img src="./res/static/img/home_img.jpg"></div>
             <div class="content-right">
               <p class="label">1 对 1 前端指导</p>
               <span></span>
@@ -234,6 +227,9 @@
   layui.config({
     base: './res/static/js/' 
   }).use('firm'); 
+  $(function(){
+    $(".fa-home").parent().parent().addClass("layui-this");
+	})
 </script>
 </body>
 </html>
